@@ -1,0 +1,21 @@
+# Testni zadatak 
+print("Ako neko ima više od 300 eura, to je bogat čovjek. Ako ima manje od 300 eura, to je siromašan čovjek. Ako ima 300 eura, neutralno je.")
+
+
+people = {
+    "Ana" : 40,
+    "Jana" : 300,
+    "Helena" : 350
+}
+
+level = 300
+
+for x, y in people.items():
+    if y > level:
+        print(f"{x} je bogata.")
+    elif y < level:    
+        print(f"{x} je siromašna.") 
+    else: 
+        print(f"{x} nije ni bogata ni siromašna.")
+        
+
